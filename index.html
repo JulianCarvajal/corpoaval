@@ -7,15 +7,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>Corpoaval</title>
+    <script src="https://kit.fontawesome.com/81721d17ae.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <!-- heder -->
+    <!-- header -->
     <header class="header">
         <figure class="header__logo">
             <img src="" alt="">
         </figure>
-        <nav class="header__nav"></nav>
+        <div class="header__burguer">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="header__nav">
+            <ul class="nav__container">
+                <li class="nav__item"> <a href="#serveces">Servicios</a> </li>
+                <li class="nav__item"> <a href="#about">¿Quienes Somos?</a> </li>
+                <li class="nav__item"> <a href="#experience">Experiencia</a> </li>
+                <li class="nav__item"> <a href="#contact">Contáctanos</a> </li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Main -->
@@ -27,7 +38,7 @@
         </section>
 
         <!-- Servicios Profesionales -->
-        <section class="serveces">
+        <section class="serveces" id="serveces">
             <h2 class="categorie__title">serveces profesionales</h2>
             <div class="serveces__item">
                 <h3 class="item__title">Muebles e inmubles</h3>
@@ -64,13 +75,13 @@
         </section>
 
         <!-- Acerca de -->
-        <section class="about">
+        <section class="about" id="about">
             <h2 class="categorie__title">¿Quienes somos?</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius natus dolores deserunt nesciunt! Libero molestiae temporibus beatae asperiores eos deserunt nulla assumenda fugit commodi. Quas pariatur excepturi iusto neque error.</p>
         </section>
 
         <!-- Experiencia -->
-        <section class="experience">
+        <section class="experience" id="experience">
             <h2 class="categorie__title">Experiencia</h2>
             <p class="experience__info">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quas suscipit repellat aperiam eos! Dolores, eius. Magni natus commodi ratione vero nisi ut officiis unde, vitae necessitatibus culpa id sunt!
@@ -87,7 +98,7 @@
     </main>
 
     <!-- Contacto -->
-    <footer class="contact">
+    <footer class="contact" id="contact">
         <h2 class="contact__title">Contáctanos...</h2>
         <p>número</p>
         <p>redes sociales</p>
