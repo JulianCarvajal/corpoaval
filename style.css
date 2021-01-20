@@ -78,3 +78,29 @@ html {
 .nav__item a:hover {
     text-decoration: underline;
 }
+
+/* MAIN */
+/* SLIDER */
+.main__slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    padding: 0 20px;
+    background-color: var(--blue);
+    /* background-image: url('https://cdn.pixabay.com/photo/2015/09/29/22/49/blueprint-964630_960_720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.slider__tilte {
+    font-size: 4rem;
+    font-family: var(--title-font);
+    font-weight: 700;
+    color: var(--orange);
+}
+.slider__sub-title {
+    font-size: 2.5rem;
+    font-family: var(--title-font);
+    color: var(--orange);
+}
