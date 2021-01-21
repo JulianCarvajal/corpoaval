@@ -167,3 +167,50 @@ html {
     bottom: 20px;
     text-decoration: underline;
 }
+
+/* ABOUT */
+.about {
+    width: 100%;
+    background-color: var(--grey);
+    padding: 40px 20px;
+}
+.about p {
+    font-family: var(--body-font);
+    font-size: 1.5rem;
+}
+
+/* EXPERIENCIA */
+.experience {
+    width: 100%;
+    padding: 0 20px;
+    background-color: var(--grey);
+}
+.experience .categorie__title {
+    padding-bottom: 20px;
+    text-align: start;
+}
+.experience__info {
+    font-family: var(--body-font);
+    font-size: 1.5rem;
+    padding-bottom: 40px;
+}
+.companies {
+    width: 100%;
+    padding: 40px 20px;
+    background-color: var(--blue);
+}
+.companies__title {
+    padding-bottom: 40px;
+    font-family: var(--title-font);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--orange);
+    line-height: 30px;
+}
+.companies__slider {
+    margin: 0 auto;
+    width: 98%;
+    height: 90px;
+    border-radius: 15px;
+    background-color: var(--grey);
+}
