@@ -104,3 +104,66 @@ html {
     font-family: var(--title-font);
     color: var(--orange);
 }
+
+/* Servicios profesionales */
+.servicios-profesionales {
+    width: 100%;
+    padding: 40px 40px;
+    background-color: var(--grey);
+}
+.categorie__title {
+    padding-bottom: 40px;
+    font-family: var(--title-font);
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--blue);
+    line-height: 30px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: minmax(220px, 320px);
+    grid-template-rows: repeat(4, 250px);
+    gap: 20px;
+    justify-content: center;
+}
+.serveces__item {
+    position: relative;
+    width: 100%;
+    padding: 30px 10px 0 10px;
+    background-color: var(--orange);
+    border: 2px solid var(--blue);
+    border-radius: 25px;
+}
+.item__title {
+    width: 100%;
+    margin-bottom: 30px;
+    font-family: var(--title-font);
+    font-size: 1.9rem;
+    color: var(--black);
+}
+.item__list {
+    padding-left: 20px;
+}
+.item__list li {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    font-family: var(--body-font);
+}
+.contact__button {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    height: 40px;
+    padding: 10px;
+    font-family: var(--title-font);
+    font-size: 1.6rem;
+    color: var(--grey);
+    background-color: var(--blue);
+    border-radius: 10px;
+    text-decoration: none;
+}
+.contact__button:hover {
+    bottom: 20px;
+    text-decoration: underline;
+}
