@@ -44,15 +44,17 @@ html {
     font-size: 3rem;
 }
 .header__nav {
-    display: none;
     position: absolute;
+    right: -500px;
+    background-color: var(--orange);
+    width: 80%;
+    height: 200px;
+}
+.header__nav.is-active {
     top: 80px;
     left: 0;
     right: 0;
     margin: 0 auto;
-    background-color: var(--orange);
-    width: 80%;
-    height: 200px;
 }
 .nav__container {
     display: grid;
