@@ -106,7 +106,7 @@ html {
 }
 
 /* Servicios profesionales */
-.servicios-profesionales {
+.profesional-serveces {
     width: 100%;
     padding: 40px 40px;
     background-color: var(--grey);
@@ -213,4 +213,50 @@ html {
     height: 90px;
     border-radius: 15px;
     background-color: var(--grey);
+}
+
+
+/* CONTACTO */
+.contact {
+    width: 100%;
+    padding: 40px;
+    background-color: var(--black);
+    color: white;
+}
+.contact__title {
+    padding-bottom: 40px;
+    font-family: var(--title-font);
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--white);
+    line-height: 30px;
+}
+.contact__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.contact__info {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.6rem;
+    font-family: var(--body-font);
+    border-radius: 10px;
+}
+.contact__info:hover {
+    font-weight: bold;
+    color: var(--black);
+    background-color: var(--white);
+}
+.fab {
+    font-size: 3.5rem;
+    margin-right: 15px;
+}
+.contact__container > .contact__info ~ .contact__info {
+    margin-left: 50px;
 }
